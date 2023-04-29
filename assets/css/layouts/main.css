@@ -1,0 +1,51 @@
+html, #root, main {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #FFD600;
+    background-image: url("/assets/image/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(var(-height) - 1px);
+    overflow: hidden;
+}
+
+main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: #212121;
+    }
+}
+
+::-moz-selection {
+    color: #212121;
+    background: #ead880;
+}
+
+::selection {
+    color: #212121;
+    background: #ead880;
+}
+
+
+.simplebar-root {
+    overflow-x: hidden !important;
+}
+
+.simplebar-root, .simplebar-content {
+    width: 100%;
+    height: 100%;
+}
+
+.simplebar-scrollbar::before {
+    background: #ead880 !important;
+}

@@ -1,3 +1,3 @@
 ## 🛠 Tech Stack
 
-**Client:** Javascript, HTML, CSS, React, MUI
+**Client:** Javascript, HTML, CSS, React & MUI
